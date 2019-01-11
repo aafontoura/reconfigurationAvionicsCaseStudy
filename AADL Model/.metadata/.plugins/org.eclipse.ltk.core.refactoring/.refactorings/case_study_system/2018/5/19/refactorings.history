@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;case_study_system/FuelMon.aadl&apos; to &apos;threads.aadl&apos;" description="Rename resource &apos;FuelMon.aadl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FuelMon.aadl" name="threads.aadl" stamp="1525652581407" updateReferences="true"/>
+</session>

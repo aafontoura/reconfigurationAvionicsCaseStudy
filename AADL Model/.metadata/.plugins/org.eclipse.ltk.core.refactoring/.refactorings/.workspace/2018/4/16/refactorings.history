@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;rosace&apos;" deleteContents="false" description="Delete resource &apos;rosace&apos;" element1="/rosace" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1524266452050"/>&#x0A;<refactoring comment="Delete resource &apos;AADLIB/examples/rosace/Processor_Propertiesold.aadl&apos;" deleteContents="false" description="Delete resource &apos;AADLIB/examples/rosace/Processor_Propertiesold.aadl&apos;" element1="/AADLIB/examples/rosace/Processor_Propertiesold.aadl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1524266523343"/>
+</session>

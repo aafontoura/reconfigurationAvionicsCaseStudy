@@ -1,0 +1,7 @@
+property set Processor_Properties is
+	
+
+	Processor_Frequency : type aadlinteger 0 .. 255;
+	Core_Id : type aadlinteger 0 .. 255;
+
+end Processor_Properties;

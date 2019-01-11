@@ -1,0 +1,201 @@
+-------------------------------------------------------------------
+-- Platform
+
+package CaseStudy_Platform
+public
+  -- libraries
+  with processors;
+  with memories;
+  with afdx_buses;
+  
+  with ARINC653;
+  with Deployment;
+  
+-------------------------------------------------------------------
+-- processing units
+--
+
+  virtual processor processor_partition
+  properties
+    Scheduling_Protocol => (ROUND_ROBIN_PROTOCOL);
+  end processor_partition;
+
+  processor ProcessingUnit extends processors::Generic_CPU
+  	features
+  		afdx : requires bus access physical_afdx_link;
+  	properties
+        Clock_Period		 => 200 ns;
+        Scheduling_Protocol  => (ROUND_ROBIN_PROTOCOL);
+        Priority_Range		 => 0 .. 255;
+        Preemptive_Scheduler => true;
+        Deployment::Execution_Platform => VxWorks;
+  end ProcessingUnit;
+
+
+  processor implementation ProcessingUnit.C1
+  subcomponents
+    VP1 : virtual processor processor_partition;
+    VP2 : virtual processor processor_partition;
+    VP3 : virtual processor processor_partition;
+  properties
+    ARINC653::Module_Major_Frame => 20ms;
+    ARINC653::Module_Schedule => (
+      [Partition => reference (VP1); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP2); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP3); Duration  => 10 ms; Periodic_Processing_Start => true;]
+    );
+  end ProcessingUnit.C1;
+  
+  
+  processor implementation ProcessingUnit.C2
+  subcomponents
+    VP1 : virtual processor processor_partition;   
+  properties
+    ARINC653::Module_Major_Frame => 10ms;
+    ARINC653::Module_Schedule => (
+      [Partition => reference (VP1); Duration  => 10 ms; Periodic_Processing_Start => true;]       
+    );
+  end ProcessingUnit.C2;
+
+
+  processor implementation ProcessingUnit.C3
+  subcomponents
+    VP1 : virtual processor processor_partition;
+    VP2 : virtual processor processor_partition;
+  properties
+    ARINC653::Module_Major_Frame => 10ms;
+    ARINC653::Module_Schedule => (
+      [Partition => reference (VP1); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP2); Duration  =>  5 ms; Periodic_Processing_Start => true;]
+     );
+  end ProcessingUnit.C3;
+  
+  
+  processor implementation ProcessingUnit.C4
+  subcomponents
+    VP1 : virtual processor processor_partition;
+    VP2 : virtual processor processor_partition;
+    VP3 : virtual processor processor_partition;
+    VP4 : virtual processor processor_partition;
+  properties
+    ARINC653::Module_Major_Frame => 20ms;
+    ARINC653::Module_Schedule => (
+      [Partition => reference (VP1); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP2); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP3); Duration  =>  5 ms; Periodic_Processing_Start => true;],
+      [Partition => reference (VP4); Duration  =>  5 ms; Periodic_Processing_Start => true;]
+    );
+  end ProcessingUnit.C4;
+  
+-------------------------------------------------------------------
+-- AFDX buses
+--
+
+--
+-- virtual buses
+--
+
+  virtual bus VL
+  properties
+    afdx_buses::Allowed_Message_Size => 512 bytes .. 12144 bytes;
+    afdx_buses::Jitter_Max => 500 us;
+  end VL;
+
+  virtual bus implementation VL.vl1
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 32 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl1;
+
+  virtual bus implementation VL.vl2
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 8 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl2;
+
+  virtual bus implementation VL.vl3
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 16 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl3;
+
+  virtual bus implementation VL.vl4
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 64 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl4;
+
+  virtual bus implementation VL.vl5
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 32 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl5;
+
+  virtual bus implementation VL.vl6
+  properties
+    afdx_buses::Bandwidth_Allocation_Gap => 32 ms;
+    afdx_buses::Latency_Constraint => 1 ms;
+  end VL.vl6;
+
+--
+-- physical AFDX bus
+--
+
+  bus physical_afdx_link
+  properties
+    afdx_buses::Channel_Type => Full_Duplex;
+    afdx_buses::Bandwidth => 100 MBytesps;
+  end physical_afdx_link;
+
+  bus implementation physical_afdx_link.impl
+  subcomponents
+    VL1: virtual bus VL.vl1;
+    VL2: virtual bus VL.vl2;
+    VL3: virtual bus VL.vl3;
+    VL4: virtual bus VL.vl4;
+    VL5: virtual bus VL.vl5;
+    VL6: virtual bus VL.vl6;
+  end physical_afdx_link.impl;
+
+  device afdx_switch
+    features
+       afdx_access  : requires bus access physical_afdx_link;
+    properties
+       afdx_buses::Switching_Delay => 140us;
+  end afdx_switch;
+  
+
+
+-------------------------------------------------------------------
+-- memories
+--
+
+  memory mainmemory extends memories::RAM
+  end mainmemory;
+
+  memory memchunk extends memories::RAM
+  end memchunk;
+
+  memory implementation mainmemory.M1
+  subcomponents
+    mem1 : memory memchunk;
+    mem2 : memory memchunk;
+  end mainmemory.M1;
+
+  memory implementation mainmemory.M2
+  subcomponents
+    mem : memory memchunk;
+  end mainmemory.M2;
+
+  memory implementation mainmemory.M3
+  subcomponents
+    mem : memory memchunk;
+  end mainmemory.M3;
+
+  memory implementation mainmemory.M4
+  subcomponents
+    mem : memory memchunk;
+  end mainmemory.M4;
+
+
+end CaseStudy_Platform;

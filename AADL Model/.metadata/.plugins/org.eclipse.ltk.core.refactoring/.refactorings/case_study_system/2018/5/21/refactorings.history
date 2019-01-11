@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;case_study_system/dependencies&apos; to &apos;dependencies.aadl&apos;" description="Rename resource &apos;dependencies&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="dependencies" name="dependencies.aadl" stamp="1526862655497" updateReferences="true"/>
+</session>

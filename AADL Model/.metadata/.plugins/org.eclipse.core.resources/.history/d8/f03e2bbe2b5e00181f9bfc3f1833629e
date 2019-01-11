@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="461">
+      <element id="462">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c0</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="276">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="51">
+      <element id="499" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>h_c</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="498" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>h_f</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="495" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="221.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>altitude_hold_t</seg>
+      </bo>
+      <position x="12.0" y="38.0"/>
+      <size width="281.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="106">
+      <element id="550" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>altitudehold</seg>
+        </bo>
+        <position x="218.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="544" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>settingsin</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="545" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>velocityhold</seg>
+        </bo>
+        <position x="216.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>autopilot</seg>
+      </bo>
+      <position x="1589.0" y="38.0"/>
+      <size width="314.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="205">
+      <element id="656" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>altitudehold</seg>
+        </bo>
+        <position x="268.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="657" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>apengaged</seg>
+        </bo>
+        <position x="272.0" y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="648" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>settingsin</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="651" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>velocityhold</seg>
+        </bo>
+        <position x="266.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>autopilotmonitor</seg>
+      </bo>
+      <position x="274.0" y="434.0"/>
+      <size width="364.0" height="186.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="218">
+      <element id="666" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>chartselection</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="668" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>chartslist</seg>
+        </bo>
+        <position x="244.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="667" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>selectedchart</seg>
+        </bo>
+        <position x="219.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>charts</seg>
+      </bo>
+      <position x="12.0" y="186.0"/>
+      <size width="324.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="195">
+      <element id="643" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>a661in</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="647" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>buttonsout</seg>
+        </bo>
+        <position x="222.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="646" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>healthstatus</seg>
+        </bo>
+        <position x="211.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>display1</seg>
+      </bo>
+      <position x="626.0" y="38.0"/>
+      <size width="309.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="185">
+      <element id="634" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>a661in</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="638" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>buttonsout</seg>
+        </bo>
+        <position x="222.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="637" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>healthstatus</seg>
+        </bo>
+        <position x="211.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>display2</seg>
+      </bo>
+      <position x="305.0" y="38.0"/>
+      <size width="309.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="265">
+      <element id="706" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>a661in</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="710" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>buttonsout</seg>
+        </bo>
+        <position x="222.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="709" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>healthstatus</seg>
+        </bo>
+        <position x="211.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>display3</seg>
+      </bo>
+      <position x="1268.0" y="38.0"/>
+      <size width="309.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="248">
+      <element id="691" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>a661in</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="695" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>buttonsout</seg>
+        </bo>
+        <position x="222.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="694" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>healthstatus</seg>
+        </bo>
+        <position x="211.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>display4</seg>
+      </bo>
+      <position x="947.0" y="38.0"/>
+      <size width="309.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="116">
+      <element id="572" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>chart</seg>
+        </bo>
+        <position y="90.0"/>
+        <contentFilters/>
+      </element>
+      <element id="571" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>display1commands</seg>
+        </bo>
+        <position x="389.0" y="45.0"/>
+        <contentFilters/>
+      </element>
+      <element id="592" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>display2commands</seg>
+        </bo>
+        <position x="389.0" y="135.0"/>
+        <contentFilters/>
+      </element>
+      <element id="557" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>display3commands</seg>
+        </bo>
+        <position x="389.0"/>
+        <contentFilters/>
+      </element>
+      <element id="558" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>display4commands</seg>
+        </bo>
+        <position x="389.0" y="90.0"/>
+        <contentFilters/>
+      </element>
+      <element id="595" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>enginedata</seg>
+        </bo>
+        <position y="135.0"/>
+        <contentFilters/>
+      </element>
+      <element id="565" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>eta</seg>
+        </bo>
+        <position y="225.0"/>
+        <contentFilters/>
+      </element>
+      <element id="566" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fueldata</seg>
+        </bo>
+        <position y="45.0"/>
+        <contentFilters/>
+      </element>
+      <element id="567" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>localizer</seg>
+        </bo>
+        <position y="270.0"/>
+        <contentFilters/>
+      </element>
+      <element id="596" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>maparinc661commands</seg>
+        </bo>
+        <position/>
+        <contentFilters/>
+      </element>
+      <element id="568" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>systeminput</seg>
+        </bo>
+        <position y="180.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>displaymgr</seg>
+      </bo>
+      <position x="1238.0" y="682.0"/>
+      <size width="532.0" height="428.0"/>
+      <contentFilters>
+        <filter>subcomponents</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="238">
+      <element id="684" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogsensors</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="683" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>rpm</seg>
+        </bo>
+        <position x="331.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="682" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>temperature</seg>
+        </bo>
+        <position x="278.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>enginemonitor</seg>
+      </bo>
+      <position x="348.0" y="186.0"/>
+      <size width="378.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="163">
+      <element id="626" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>va1</seg>
+        </bo>
+        <position y="181.0"/>
+        <contentFilters/>
+      </element>
+      <element id="627" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>va2</seg>
+        </bo>
+        <position y="231.0"/>
+        <contentFilters/>
+      </element>
+      <element id="613" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>va_out</seg>
+        </bo>
+        <position x="318.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="618" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vaadjustment</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="623" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz1</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="620" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz2</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="619" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz_out</seg>
+        </bo>
+        <position x="319.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>flightcontrolmgr</seg>
+      </bo>
+      <position x="12.0" y="682.0"/>
+      <size width="380.0" height="286.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="150">
+      <element id="600" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogpitch</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="597" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogroll</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="601" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogyaw</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="606" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>flightstickdata</seg>
+        </bo>
+        <position x="295.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>flightstickhandler</seg>
+      </bo>
+      <position x="1071.0" y="434.0"/>
+      <size width="409.0" height="186.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="61">
+      <element id="511" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>fueladjustment</seg>
+        </bo>
+        <position x="316.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="508" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fuelflow</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="510" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fuelqty</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="509" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>va</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>fuelconsumptionmgr</seg>
+      </bo>
+      <position x="1492.0" y="434.0"/>
+      <size width="433.0" height="186.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="258">
+      <element id="696" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>fueldata</seg>
+        </bo>
+        <position x="331.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="701" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>fuellevelsensors</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>fuelquantity</seg>
+      </bo>
+      <position x="812.0" y="732.0"/>
+      <size width="406.0" height="86.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="460" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>acposition</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="459" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>destinationposition</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="446" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>eta</seg>
+        </bo>
+        <position x="366.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="447" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>localizer</seg>
+        </bo>
+        <position x="332.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="458" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vor</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>guidance</seg>
+      </bo>
+      <position x="650.0" y="434.0"/>
+      <size width="409.0" height="186.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="228">
+      <element id="676" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>acposition</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="677" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>arinc661commands</seg>
+        </bo>
+        <position x="273.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="669" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mapelementlist</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mapserver</seg>
+      </bo>
+      <position x="1163.0" y="186.0"/>
+      <size width="417.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="19">
+      <element id="474" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>acposition</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="473" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>destinationposition</seg>
+        </bo>
+        <position x="269.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="466" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>flightplanlist</seg>
+        </bo>
+        <position x="308.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="463" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>flightplanselection</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>routectrl</seg>
+      </bo>
+      <position x="738.0" y="186.0"/>
+      <size width="413.0" height="136.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="32">
+      <element id="475" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>panel1</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="487" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>panel2</seg>
+        </bo>
+        <position y="181.0"/>
+        <contentFilters/>
+      </element>
+      <element id="490" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>panel3</seg>
+        </bo>
+        <position y="231.0"/>
+        <contentFilters/>
+      </element>
+      <element id="481" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>panel4</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="484" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>panel5</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="478" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>systeminputs</seg>
+        </bo>
+        <position x="294.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>systeminputhandler</seg>
+      </bo>
+      <position x="404.0" y="682.0"/>
+      <size width="396.0" height="286.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="90">
+      <element id="532" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="190.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="540" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>q_f</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="541" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>va_c</seg>
+        </bo>
+        <position y="181.0"/>
+        <contentFilters/>
+      </element>
+      <element id="537" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>va_f</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <element id="531" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz_f</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>va_control</seg>
+      </bo>
+      <position x="12.0" y="434.0"/>
+      <size width="250.0" height="236.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="74">
+      <element id="514" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>az_f</seg>
+        </bo>
+        <position y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="520" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="189.0" y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="528" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>q_f</seg>
+        </bo>
+        <position y="31.0"/>
+        <contentFilters/>
+      </element>
+      <element id="525" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz_c</seg>
+        </bo>
+        <position y="181.0"/>
+        <contentFilters/>
+      </element>
+      <element id="517" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>vz_f</seg>
+        </bo>
+        <position y="131.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>vz_control</seg>
+      </bo>
+      <position x="1592.0" y="186.0"/>
+      <size width="249.0" height="236.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>complete.sys</seg>
+    </bo>
+    <position x="10.0" y="-10.0"/>
+    <size width="2311.0" height="1451.0"/>
+    <contentFilters>
+      <filter>subcomponents</filter>
+      <filter>flowSpecifications</filter>
+      <filter>processorFeatures</filter>
+      <filter>generalizations</filter>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>connections</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>reconfigstudy::dependencies::complete.sys</seg>
+    </context>
+  </config>
+</diagram:Diagram>
