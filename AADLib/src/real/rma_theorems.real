@@ -1,0 +1,42 @@
+
+--------------------------------------------------------------------------------
+-- Check whether the threads bound to each processors can be
+-- scheduled with RMA (cf. Liu, Layland. "Scheduling Algorithms for
+-- Multi-programming in hard-Real-Time Environment", JACM, 01/1973)
+
+--  Utility theorem: compute Utilization factor for a set of threads
+
+-- check_prop_def : verify existence of required properties
+-- and then all threads are periodic
+
+theorem rma_prop_def
+
+foreach e in thread_set do
+        check(  Exists (e,"Dispatch_Protocol")
+	        and (Property (e, "Dispatch_Protocol") = "Periodic")
+                and Exists (e,"compute_execution_time")
+                and Exists (e,"Period"));
+
+end rma_prop_def;
+
+theorem evaluate_utilization
+  foreach e in Local_Set do
+    var Period := get_property_value (e, "period");
+    var WCET := last (get_property_value (e, "compute_execution_time"));
+    var U := WCET/Period;
+
+    return (MSum (U));
+end evaluate_utilization;
+
+--  Main RMA theorem starts here
+
+theorem rma
+
+foreach e in Processor_Set do
+  Proc_Set(e) := {x in Process_Set | Is_Bound_To (x, e)};
+  Threads := {x in Thread_Set | Is_Subcomponent_Of (x, Proc_Set)};
+
+  var U := compute evaluate_utilization (Threads);
+  check (U <= (Cardinal (Threads) * (2 ** (1 / Cardinal (Threads))) -1));
+
+end rma;

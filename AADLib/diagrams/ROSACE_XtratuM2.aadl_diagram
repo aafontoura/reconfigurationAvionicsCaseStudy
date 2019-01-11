@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="6">
+      <bo>
+        <seg>classifier</seg>
+        <seg>a_core</seg>
+      </bo>
+      <position x="551.0" y="38.0"/>
+      <size width="98.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="25">
+      <element id="26">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="547.0" y="76.0"/>
+          <point x="559.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>a_core.impl</seg>
+      </bo>
+      <position x="401.0" y="38.0"/>
+      <size width="130.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="22">
+      <bo>
+        <seg>classifier</seg>
+        <seg>leon3</seg>
+      </bo>
+      <position x="772.0" y="486.0"/>
+      <size width="90.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <element id="5">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="768.0" y="524.0"/>
+          <point x="780.0" y="524.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>leon3.xtratum</seg>
+      </bo>
+      <position x="609.0" y="486.0"/>
+      <size width="143.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="10">
+      <element id="11">
+        <bo>
+          <seg>implementation_extension</seg>
+        </bo>
+        <bendpoints>
+          <point x="361.0" y="524.0"/>
+          <point x="373.0" y="524.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>leon3.xtratum_2cores</seg>
+      </bo>
+      <position x="143.0" y="486.0"/>
+      <size width="202.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="16">
+      <element id="17">
+        <bo>
+          <seg>implementation_extension</seg>
+        </bo>
+        <bendpoints>
+          <point x="605.0" y="524.0"/>
+          <point x="617.0" y="524.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>leon3.xtratum_partitions</seg>
+      </bo>
+      <position x="365.0" y="486.0"/>
+      <size width="224.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="23">
+      <bo>
+        <seg>classifier</seg>
+        <seg>myram</seg>
+      </bo>
+      <position x="468.0" y="166.0"/>
+      <size width="99.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="7">
+      <element id="8">
+        <bo>
+          <seg>implementation_extension</seg>
+        </bo>
+        <bendpoints>
+          <point x="306.0" y="204.0"/>
+          <point x="318.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>myram.sdram</seg>
+      </bo>
+      <position x="143.0" y="166.0"/>
+      <size width="147.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="28">
+      <element id="29">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="464.0" y="204.0"/>
+          <point x="476.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>myram.stram</seg>
+      </bo>
+      <position x="310.0" y="166.0"/>
+      <size width="138.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="9">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition0</seg>
+      </bo>
+      <position x="385.0" y="230.0"/>
+      <size width="185.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <element id="3">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="381.0" y="268.0"/>
+          <point x="393.0" y="268.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition0.impl</seg>
+      </bo>
+      <position x="143.0" y="230.0"/>
+      <size width="222.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="15">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition1</seg>
+      </bo>
+      <position x="385.0" y="358.0"/>
+      <size width="185.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="30">
+      <element id="31">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="381.0" y="396.0"/>
+          <point x="393.0" y="396.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition1.impl</seg>
+      </bo>
+      <position x="143.0" y="358.0"/>
+      <size width="222.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="12">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition2</seg>
+      </bo>
+      <position x="385.0" y="294.0"/>
+      <size width="185.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="18">
+      <element id="19">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="381.0" y="332.0"/>
+          <point x="393.0" y="332.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_partition2.impl</seg>
+      </bo>
+      <position x="143.0" y="294.0"/>
+      <size width="222.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="24">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_xtratum</seg>
+      </bo>
+      <position x="636.0" y="422.0"/>
+      <size width="165.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="34">
+      <element id="35">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="632.0" y="460.0"/>
+          <point x="644.0" y="460.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_xtratum.monocore</seg>
+      </bo>
+      <position x="370.0" y="422.0"/>
+      <size width="246.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="32">
+      <element id="33">
+        <bo>
+          <seg>implementation_extension</seg>
+        </bo>
+        <bendpoints>
+          <point x="366.0" y="460.0"/>
+          <point x="378.0" y="460.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_xtratum.smp</seg>
+      </bo>
+      <position x="143.0" y="422.0"/>
+      <size width="207.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="27">
+      <bo>
+        <seg>classifier</seg>
+        <seg>segment</seg>
+      </bo>
+      <position x="280.0" y="38.0"/>
+      <size width="109.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="20">
+      <element id="21">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="276.0" y="76.0"/>
+          <point x="288.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>segment.i</seg>
+      </bo>
+      <position x="143.0" y="38.0"/>
+      <size width="117.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>xtratum_partition</seg>
+      </bo>
+      <position x="389.0" y="102.0"/>
+      <size width="166.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="13">
+      <element id="14">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="385.0" y="140.0"/>
+          <point x="397.0" y="140.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>xtratum_partition.generic</seg>
+      </bo>
+      <position x="143.0" y="102.0"/>
+      <size width="226.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>rosace::xtratum</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="874.0" height="550.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>rosace::xtratum</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="2">
+      <bo>
+        <seg>classifier</seg>
+        <seg>prs_ku1</seg>
+      </bo>
+      <position x="275.0" y="102.0"/>
+      <size width="111.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="7">
+      <element id="8">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="271.0" y="140.0"/>
+          <point x="283.0" y="140.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>prs_ku1.impl</seg>
+      </bo>
+      <position x="112.0" y="102.0"/>
+      <size width="143.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <bo>
+        <seg>classifier</seg>
+        <seg>prs_mfd1</seg>
+      </bo>
+      <position x="285.0" y="166.0"/>
+      <size width="121.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <element id="6">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="281.0" y="204.0"/>
+          <point x="293.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>prs_mfd1.impl</seg>
+      </bo>
+      <position x="112.0" y="166.0"/>
+      <size width="153.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>classifier</seg>
+        <seg>th_ku1</seg>
+      </bo>
+      <position x="112.0" y="38.0"/>
+      <size width="104.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>th_mfd1</seg>
+      </bo>
+      <position x="228.0" y="38.0"/>
+      <size width="114.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>m1_software</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="418.0" height="230.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>m1_software</seg>
+    </context>
+  </config>
+</diagram:Diagram>

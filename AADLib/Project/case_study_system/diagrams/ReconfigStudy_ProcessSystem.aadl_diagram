@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="36">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pactuatorxcontrol</seg>
+      </bo>
+      <position x="901.0" y="422.0"/>
+      <size width="179.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="48">
+      <element id="49">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="897.0" y="460.0"/>
+          <point x="909.0" y="460.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pactuatorxcontrol.proc</seg>
+      </bo>
+      <position x="664.0" y="422.0"/>
+      <size width="217.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>classifier</seg>
+        <seg>paltitude_hold_t</seg>
+      </bo>
+      <position x="468.0" y="358.0"/>
+      <size width="170.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="34">
+      <element id="35">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="464.0" y="396.0"/>
+          <point x="476.0" y="396.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>paltitude_hold_t.proc</seg>
+      </bo>
+      <position x="240.0" y="358.0"/>
+      <size width="208.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="31">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pautopilot</seg>
+      </bo>
+      <position x="1012.0" y="38.0"/>
+      <size width="126.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="46">
+      <element id="47">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="1008.0" y="76.0"/>
+          <point x="1020.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pautopilot.proc</seg>
+      </bo>
+      <position x="832.0" y="38.0"/>
+      <size width="160.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="21">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pautopilotmonitor</seg>
+      </bo>
+      <position x="885.0" y="358.0"/>
+      <size width="177.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="17">
+      <element id="18">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="881.0" y="396.0"/>
+          <point x="893.0" y="396.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pautopilotmonitor.proc</seg>
+      </bo>
+      <position x="650.0" y="358.0"/>
+      <size width="215.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="28">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pcharts</seg>
+      </bo>
+      <position x="401.0" y="38.0"/>
+      <size width="108.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="15">
+      <element id="16">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="397.0" y="76.0"/>
+          <point x="409.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pcharts.proc</seg>
+      </bo>
+      <position x="240.0" y="38.0"/>
+      <size width="141.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="14">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pdisplaymgr</seg>
+      </bo>
+      <position x="773.0" y="166.0"/>
+      <size width="138.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="42">
+      <element id="43">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="769.0" y="204.0"/>
+          <point x="781.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pdisplaymgr.proc</seg>
+      </bo>
+      <position x="580.0" y="166.0"/>
+      <size width="173.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="30">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pdisplayxserver</seg>
+      </bo>
+      <position x="854.0" y="294.0"/>
+      <size width="166.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="2">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="850.0" y="332.0"/>
+          <point x="862.0" y="332.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pdisplayxserver.proc</seg>
+      </bo>
+      <position x="630.0" y="294.0"/>
+      <size width="204.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="10">
+      <bo>
+        <seg>classifier</seg>
+        <seg>penginemonitor</seg>
+      </bo>
+      <position x="458.0" y="294.0"/>
+      <size width="160.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <element id="5">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="454.0" y="332.0"/>
+          <point x="466.0" y="332.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>penginemonitor.proc</seg>
+      </bo>
+      <position x="240.0" y="294.0"/>
+      <size width="198.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="52">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pflightcontrolmgr</seg>
+      </bo>
+      <position x="475.0" y="422.0"/>
+      <size width="177.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="38">
+      <element id="39">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="471.0" y="460.0"/>
+          <point x="483.0" y="460.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pflightcontrolmgr.proc</seg>
+      </bo>
+      <position x="240.0" y="422.0"/>
+      <size width="215.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="45">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pflightstickhandler</seg>
+      </bo>
+      <position x="488.0" y="486.0"/>
+      <size width="190.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="26">
+      <element id="27">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="484.0" y="524.0"/>
+          <point x="496.0" y="524.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pflightstickhandler.proc</seg>
+      </bo>
+      <position x="240.0" y="486.0"/>
+      <size width="228.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="29">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pfuelconsumptionmgr</seg>
+      </bo>
+      <position x="506.0" y="550.0"/>
+      <size width="208.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="22">
+      <element id="23">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="502.0" y="588.0"/>
+          <point x="514.0" y="588.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pfuelconsumptionmgr.proc</seg>
+      </bo>
+      <position x="240.0" y="550.0"/>
+      <size width="246.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="19">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pfuelquantity</seg>
+      </bo>
+      <position x="446.0" y="230.0"/>
+      <size width="149.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="11">
+      <element id="12">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="442.0" y="268.0"/>
+          <point x="454.0" y="268.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pfuelquantity.proc</seg>
+      </bo>
+      <position x="240.0" y="230.0"/>
+      <size width="186.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="37">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pguidance</seg>
+      </bo>
+      <position x="742.0" y="102.0"/>
+      <size width="129.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="50">
+      <element id="51">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="738.0" y="140.0"/>
+          <point x="750.0" y="140.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pguidance.proc</seg>
+      </bo>
+      <position x="560.0" y="102.0"/>
+      <size width="162.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="41">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pmapserver</seg>
+      </bo>
+      <position x="431.0" y="166.0"/>
+      <size width="137.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="24">
+      <element id="25">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="427.0" y="204.0"/>
+          <point x="439.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pmapserver.proc</seg>
+      </bo>
+      <position x="240.0" y="166.0"/>
+      <size width="171.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="40">
+      <bo>
+        <seg>classifier</seg>
+        <seg>proutectrl</seg>
+      </bo>
+      <position x="421.0" y="102.0"/>
+      <size width="127.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="8">
+      <element id="9">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="417.0" y="140.0"/>
+          <point x="429.0" y="140.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>proutectrl.proc</seg>
+      </bo>
+      <position x="240.0" y="102.0"/>
+      <size width="161.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="20">
+      <bo>
+        <seg>classifier</seg>
+        <seg>psysteminputhandler</seg>
+      </bo>
+      <position x="949.0" y="486.0"/>
+      <size width="201.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="32">
+      <element id="33">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="945.0" y="524.0"/>
+          <point x="957.0" y="524.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>psysteminputhandler.proc</seg>
+      </bo>
+      <position x="690.0" y="486.0"/>
+      <size width="239.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="44">
+      <bo>
+        <seg>classifier</seg>
+        <seg>pvz_control_t</seg>
+      </bo>
+      <position x="814.0" y="230.0"/>
+      <size width="150.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="53">
+      <element id="54">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="810.0" y="268.0"/>
+          <point x="822.0" y="268.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>pvz_control_t.proc</seg>
+      </bo>
+      <position x="607.0" y="230.0"/>
+      <size width="187.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="13">
+      <bo>
+        <seg>classifier</seg>
+        <seg>vacontrol</seg>
+      </bo>
+      <position x="697.0" y="38.0"/>
+      <size width="123.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="6">
+      <element id="7">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="693.0" y="76.0"/>
+          <point x="705.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>vacontrol.proc</seg>
+      </bo>
+      <position x="521.0" y="38.0"/>
+      <size width="156.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>reconfigstudy::processsystem</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1162.0" height="614.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>reconfigstudy::processsystem</seg>
+    </context>
+  </config>
+</diagram:Diagram>

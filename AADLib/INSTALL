@@ -1,0 +1,44 @@
+Quick installation instructions for AADLib
+==========================================
+
+Please refer to the AADLib user's guide for more detailed
+installation instructions.
+
+BUILD REQUIREMENTS:
+===================
+
+ - Ocarina 2.0w
+ - OSATE2
+
+Optionnaly autoconf/automake if you rebuild from a fresh copy of the
+repository.
+
+BUILD AND INSTALLATION INSTRUCTIONS FOR AADLIB:
+===============================================
+
+ - Install Ocarina as specified by its documentation and make sure its
+   'bin' installation directories is located at the top of your PATH
+   environment variable.
+
+ - Issue
+   ./configure
+   make && make install
+
+ - Type ./configure --help to get the list of possible options.
+
+ If you modify source files, build AADLib after a checkout or
+ make distclean, or the directory hierarchy of the source files, you
+ should re-generate autoconf and automake files (configure,
+ Makefile.in...); to do this, from the main directory, run:
+
+ ./support/reconfig
+
+BUILD AND INSTALLATION INSTRUCTIONS FOR OSATE2:
+===============================================
+
+ - Install OSATE2 as specified by its documentation
+
+ - AADLib is designed as an OSATE2 project, simply import it using
+   either git import mechanisms, or from your filesystem.
+
+ - Examples can be ran separately by instanciating their root system

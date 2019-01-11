@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="7">
+      <bo>
+        <seg>classifier</seg>
+        <seg>aircraft_dynamics</seg>
+      </bo>
+      <position x="309.0" y="230.0"/>
+      <size width="177.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="13">
+      <bo>
+        <seg>classifier</seg>
+        <seg>altitude_hold</seg>
+      </bo>
+      <position x="152.0" y="230.0"/>
+      <size width="145.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="14">
+      <bo>
+        <seg>classifier</seg>
+        <seg>az_filter</seg>
+      </bo>
+      <position x="280.0" y="102.0"/>
+      <size width="116.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>classifier</seg>
+        <seg>elevator</seg>
+      </bo>
+      <position x="511.0" y="38.0"/>
+      <size width="112.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <bo>
+        <seg>classifier</seg>
+        <seg>engine</seg>
+      </bo>
+      <position x="152.0" y="38.0"/>
+      <size width="104.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="10">
+      <bo>
+        <seg>classifier</seg>
+        <seg>h_filter</seg>
+      </bo>
+      <position x="268.0" y="38.0"/>
+      <size width="109.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>q_filter</seg>
+      </bo>
+      <position x="389.0" y="38.0"/>
+      <size width="110.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="11">
+      <element id="12">
+        <bo>
+          <seg>type_extension</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_float</seg>
+      </bo>
+      <position x="152.0" y="294.0"/>
+      <size width="237.0" height="94.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="6">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rosace_log</seg>
+      </bo>
+      <position x="431.0" y="166.0"/>
+      <size width="145.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="9">
+      <bo>
+        <seg>classifier</seg>
+        <seg>va_control</seg>
+      </bo>
+      <position x="291.0" y="166.0"/>
+      <size width="128.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <bo>
+        <seg>classifier</seg>
+        <seg>va_filter</seg>
+      </bo>
+      <position x="408.0" y="102.0"/>
+      <size width="117.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <bo>
+        <seg>classifier</seg>
+        <seg>vz_control</seg>
+      </bo>
+      <position x="152.0" y="166.0"/>
+      <size width="127.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="8">
+      <bo>
+        <seg>classifier</seg>
+        <seg>vz_filter</seg>
+      </bo>
+      <position x="152.0" y="102.0"/>
+      <size width="116.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>rosace::software</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="635.0" height="400.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>rosace::software</seg>
+    </context>
+  </config>
+</diagram:Diagram>

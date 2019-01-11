@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="15">
+      <bo>
+        <seg>classifier</seg>
+        <seg>display</seg>
+      </bo>
+      <position x="196.0" y="38.0"/>
+      <size width="105.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="9">
+      <bo>
+        <seg>classifier</seg>
+        <seg>keyboard</seg>
+      </bo>
+      <position x="313.0" y="38.0"/>
+      <size width="119.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="10">
+      <bo>
+        <seg>classifier</seg>
+        <seg>m1_system</seg>
+      </bo>
+      <position x="278.0" y="166.0"/>
+      <size width="129.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <element id="6">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="274.0" y="204.0"/>
+          <point x="286.0" y="204.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>m1_system.impl</seg>
+      </bo>
+      <position x="97.0" y="166.0"/>
+      <size width="161.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="12">
+      <bo>
+        <seg>classifier</seg>
+        <seg>m2_system</seg>
+      </bo>
+      <position x="278.0" y="102.0"/>
+      <size width="129.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+        <filter>flowSpecifications</filter>
+        <filter>modeTransitions</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="2">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="274.0" y="140.0"/>
+          <point x="286.0" y="140.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>m2_system.impl</seg>
+      </bo>
+      <position x="97.0" y="102.0"/>
+      <size width="161.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <bo>
+        <seg>classifier</seg>
+        <seg>m3_system</seg>
+      </bo>
+      <position x="278.0" y="230.0"/>
+      <size width="129.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="7">
+      <element id="8">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="274.0" y="268.0"/>
+          <point x="286.0" y="268.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>m3_system.impl</seg>
+      </bo>
+      <position x="97.0" y="230.0"/>
+      <size width="161.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>classifier</seg>
+        <seg>m4_system</seg>
+      </bo>
+      <position x="278.0" y="294.0"/>
+      <size width="129.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="13">
+      <element id="14">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="274.0" y="332.0"/>
+          <point x="286.0" y="332.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>m4_system.impl</seg>
+      </bo>
+      <position x="97.0" y="294.0"/>
+      <size width="161.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="11">
+      <bo>
+        <seg>classifier</seg>
+        <seg>rdc</seg>
+      </bo>
+      <position x="97.0" y="38.0"/>
+      <size width="87.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>subsystem</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="444.0" height="358.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>subsystem</seg>
+    </context>
+  </config>
+</diagram:Diagram>

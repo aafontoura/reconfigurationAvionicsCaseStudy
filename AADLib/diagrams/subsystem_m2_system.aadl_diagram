@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="2" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>afdx_access</seg>
+      </bo>
+      <position y="31.0"/>
+      <contentFilters/>
+    </element>
+    <element id="14" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_answer1</seg>
+      </bo>
+      <position y="181.0"/>
+      <contentFilters/>
+    </element>
+    <element id="12" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_eta1</seg>
+      </bo>
+      <position x="241.0" y="131.0"/>
+      <contentFilters/>
+    </element>
+    <element id="1" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_query1</seg>
+      </bo>
+      <position x="230.0" y="31.0"/>
+      <contentFilters/>
+    </element>
+    <element id="5" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_speed1</seg>
+      </bo>
+      <position y="81.0"/>
+      <contentFilters/>
+    </element>
+    <element id="10" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_wpid1</seg>
+      </bo>
+      <position y="131.0"/>
+      <contentFilters/>
+    </element>
+    <element id="6" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>ph_wpinfo1</seg>
+      </bo>
+      <position x="223.0" y="81.0"/>
+      <contentFilters/>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>answer_m2_wpinfo</seg>
+      </bo>
+      <bendpoints>
+        <point x="149.0" y="225.0"/>
+        <point x="149.0" y="125.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="15">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>answer_sink</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="13">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>query_src</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="7">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>speed_m2_eta</seg>
+      </bo>
+      <bendpoints>
+        <point x="139.0" y="125.0"/>
+        <point x="139.0" y="175.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="4">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>speed_sink</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="9">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>wpid_m2_query</seg>
+      </bo>
+      <bendpoints>
+        <point x="129.0" y="175.0"/>
+        <point x="129.0" y="75.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="8">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>wpid_sink</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="11">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>wpinfo_src</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>m2_system</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="314.0" height="430.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>flowSpecifications</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>subsystem::m2_system</seg>
+    </context>
+  </config>
+</diagram:Diagram>

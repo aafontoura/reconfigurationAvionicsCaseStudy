@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="4">
+  <element id="0" manual="true">
+    <element id="1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>fms</seg>
+      </bo>
+      <position x="188.0" y="38.0"/>
+      <size width="77.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <element id="3">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="184.0" y="76.0"/>
+          <point x="196.0" y="76.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>fms.impl</seg>
+      </bo>
+      <position x="54.0" y="38.0"/>
+      <size width="114.0" height="52.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>fms</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="277.0" height="102.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>fms</seg>
+    </context>
+  </config>
+</diagram:Diagram>
